@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+div.wrapp {
+  max-width: 1200px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(157deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 7%, rgba(0, 212, 255, 1) 100%);
+  padding: 120px 10px;
+  margin: 120px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+div.wrapp h1 {
+  font-size: 40px;
+}
+
+a {
+  margin: 30px 0 30px;
+  text-decoration: none;
+  font-size: 26px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 4px 20px;
+  transition: 0.4s;
+}
+a:hover {
+  background: rgba(100, 200, 255, 1);
+  transition: 0.4s;
+}
